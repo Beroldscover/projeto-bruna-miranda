@@ -1,0 +1,70 @@
+@charset "utf-8";
+//reset de paginação
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header { //toda estilização do header
+    display: grid;
+    grid-area: 75% 25%;
+    grid-template-columns: 75% 15%;
+    padding: 1vh 0;
+    max-width: 1336px;
+    background-color: #EC17FF;
+    box-shadow: .3vh .3vw .8vh #000;
+    
+}
+    a{
+        text-decoration: none;
+        color: rgb(29, 28, 28);
+        font-family: 'Barlow Condensed', sans-serif;
+        padding: 0.5vw 1vh;
+        font-size: 1.5vw;
+        transition: .5s;
+    }
+
+    a:hover {
+        color:#FF0AE7;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        font-family: 'Dancing Script';
+        text-shadow: 0.1vh 0.1vw 0.2vw #000;
+        color: #26022c;
+    }
+
+main { // inforações da pagina inicial com algumas fotos.
+    display: grid;
+}
+    h1 {
+        font-family: 'Dancing Script';
+        font-size: x-large;
+        color: rgb(29, 28, 28);
+    }
+    p {
+        font-family: 'Barlow Condensed',sans-serif;
+    }
+
+footer { //rodape da pagina.
+    
+    display: grid;
+    grid-area: 75% 25%;
+    grid-template-columns: 75% 15%;
+    padding: 1vh 0;
+    max-width: 1336px;
+    background-color: #EC17FF;
+    margin-top: 100%;
+}
+    i{
+        color: rgb(109, 3, 248);
+    }
